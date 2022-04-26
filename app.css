@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.card {
+    background: white;
+    width: 15rem;
+    height: 25rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.thecode img {
+    width: 15rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    color: hsl(218, 44%, 22%);
+    margin-bottom: 1rem;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(218, 44%, 22%);
+}
+
+/* ===============mobile=========== */
+@media screen and (max-width: 375px) {
+    .card {
+        width: 19rem;
+        height: 28rem;
+    }
+    .thecode img {
+        width: 19rem;
+    }
+}
